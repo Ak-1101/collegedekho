@@ -1,0 +1,56 @@
+key components of this educational guidance chatbot (CD-GPT):
+
+NLP Processing:
+Uses NLTK for text preprocessing
+Implements lemmatization to reduce words to their base form
+Tokenizes and preprocesses input text
+
+Intent Classification:
+Defines multiple intents related to educational guidance
+Uses a neural network for intent classification
+Supports queries about:
+
+Undergraduate courses
+Postgraduate courses
+Fee structures
+Job prospects
+College information
+Course guidance
+
+
+Machine Learning Model:
+Builds a TensorFlow neural network for intent recognition
+Uses embedding and dense layers
+Trains on predefined intent patterns
+
+
+Response Generation:
+Maintains a dictionary of predefined responses
+Randomly selects appropriate responses based on detected intent
+
+Interactive Chat Interface:
+Provides a simple command-line interaction
+Continuously processes user input
+Allows graceful exit
+
+Additional Features:
+Preprocesses and lemmatizes input text
+Uses machine learning for intent detection
+Provides informative responses about educational opportunities
+
+Requirements:
+Python 3.12 ( but in python version 3.13.1 is not compatible for tensoflow)
+Libraries: nltk, numpy, tensorflow, scikit-learn
+
+How to Use:
+Install required libraries : - pip install nltk numpy tensorflow scikit-learn
+Run the script :- python CD-GPT.py
+Start chatting with CD-GPT about educational guidance
+
+
+Potential Improvements:
+Integrate more sophisticated NLP techniques
+Add more comprehensive intent patterns
+Implement context awareness
+Create a web or GUI interface
+Add more detailed course and college databases

@@ -1,0 +1,8 @@
+How to Run:
+install python 
+then go to cmd(command prompt)
+Install required libraries : - pip install nltk numpy tensorflow scikit-learn
+
+Run the script :- python CD-GPT.py
+
+Start chatting with CD-GPT about educational guidance
